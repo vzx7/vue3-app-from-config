@@ -1,0 +1,49 @@
+{
+    "settings": {},
+    "plugins": [
+        {
+            "name": "UILogicService",
+            "options": {}
+        }
+    ],
+    "store": {
+        "modules": [
+            {
+                "names": [
+                    "counter"
+                ]
+            },
+            {
+                "names": [
+                    "account",
+                    "myPage"
+                ]
+            }
+        ]
+    },
+    "elements": [
+        {
+            "type": "root",
+            "components": [
+                {
+                    "name": "HelloWorld"
+                },
+                {
+                    "name": "TheWelcome"
+                }
+            ]
+        },
+        {
+            "type": "child",
+            "name": "CompName",
+            "components": [
+                {
+                    "name": "HelloWorld"
+                },
+                {
+                    "name": "TheWelcome"
+                }
+            ]
+        }
+    ]
+}
